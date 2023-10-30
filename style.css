@@ -96,3 +96,18 @@ main {
     text-decoration: underline;
 }
 
+@media(min-width: 100px) {
+    header {
+        background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+
+    header img {
+        width: 10rem;
+    }
+
+    main {
+        padding-inline: 7rem;
+    }
+}
