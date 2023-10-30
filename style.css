@@ -13,6 +13,7 @@
     --gray-400: #94a3b8;
     --gray-200: #e2e8f0;
     --purple: #7c2aed;
+    --white: #fff;
 }
 
 
@@ -96,18 +97,16 @@ main {
     text-decoration: underline;
 }
 
-@media(min-width: 100px) {
-    header {
-        background: none;
-        justify-content: flex-start;
-        padding-inline: 7rem;
-    }
+.login button {
+    margin-top: 1rem;
+    padding-block: 1rem;
+    width: 100%;
+    background: var(--purple);
+    border: none;
+    border-radius: 0.25rem;
 
-    header img {
-        width: 10rem;
-    }
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
 
-    main {
-        padding-inline: 7rem;
-    }
 }
